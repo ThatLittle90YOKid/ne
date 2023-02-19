@@ -3,7 +3,7 @@ function sendData() {
   var inputValue = inputElement.value;
 
   // Send the data to your GitHub repository using the GitHub API
-  fetch("https://api.github.com/repos/your-username/your-repository/contents/data.txt", {
+  fetch("https://api.github.com/repos/ThatLittle90YOKid/ne/contents/data.txt", {
     method: "PUT",
     headers: {
       "Authorization": "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",
